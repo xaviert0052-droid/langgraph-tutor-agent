@@ -1,0 +1,20 @@
+[project]
+name = "langgraph-practical"
+version = "0.1.0"
+description = "课程助教 Agent — LangGraph 入门教程实战项目"
+requires-python = ">=3.10"
+dependencies = [
+    "langgraph>=0.4.0",
+    "langgraph-checkpoint>=2.3.0",
+    "langchain-openai>=0.3.0",
+    "python-dotenv>=1.1.0",
+    "scikit-learn>=1.6.0",
+    "faiss-cpu>=1.8.0",
+]
+
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
