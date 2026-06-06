@@ -2,7 +2,13 @@
 <html lang="zh-CN">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="AI 助教">
+<link rel="manifest" href="/static/manifest.json">
+<link rel="apple-touch-icon" href="/static/icon.svg">
+<link rel="icon" href="/static/icon.svg" type="image/svg+xml">
 <title>LangGraph 课程助教</title>
 <style>
   :root {
@@ -43,10 +49,11 @@
     }
   }
   * { box-sizing: border-box; margin: 0; padding: 0; }
-  html, body { height: 100%; }
+  html, body { height: 100%; height: 100dvh; }
   body {
     font-family: var(--font); background: var(--bg); color: var(--text);
     display: flex; flex-direction: column; font-size: 14px; line-height: 1.6;
+    -webkit-text-size-adjust: 100%;
     -webkit-font-smoothing: antialiased;
   }
   svg { display: block; flex-shrink: 0; }

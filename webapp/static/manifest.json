@@ -1,0 +1,22 @@
+{
+  "name": "LangGraph 课程助教",
+  "short_name": "AI 助教",
+  "description": "LangGraph 课程助教 Agent — 实时 AI 问答",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f8f4ef",
+  "theme_color": "#d97706",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "/static/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/static/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
