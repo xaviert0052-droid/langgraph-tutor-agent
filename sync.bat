@@ -20,7 +20,7 @@ if "%msg%"=="" (
 )
 
 echo.
-git push
+git push origin main
 
 echo.
 echo  === 完成 ===
